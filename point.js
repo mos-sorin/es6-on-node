@@ -4,8 +4,3 @@ export class Point {
         this.y = y;
     }
 }
-
-if (require.main === module) {
-    let pt = new Point(7,4);
-    console.log(`My point: ${JSON.stringify(pt)}`);
-}
